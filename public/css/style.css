@@ -1,0 +1,41 @@
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+  background: whitesmoke;
+}
+*{
+  font-family: 'Share Tech Mono', monospace;
+}
+.bg-grey{
+  background: #eee;
+}
+.mt-120{
+  margin-top: 120px;
+  padding-top: 50px;
+}
+.mt-65{
+  margin-top: 65px;
+  padding-top: 50px;
+}
+/*******************************NAV*******************************/
+#logo{
+  height:100px;
+  transition: 1s all;
+}
+.small-logo{
+  height: 50px!important;
+  transition: 1s all;
+}
+ul.navbar-nav li.nav-item a.nav-link{
+  color: #2e5d84 !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul.navbar-nav li.nav-item a.nav-link:hover{
+  background-color: #2e5d8420 !important;
+}
+ul.navbar-nav li.active a.nav-link{
+  color: #8dc0ea !important;
+}
